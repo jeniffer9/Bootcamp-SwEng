@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/mainText"
+        android:id="@+id/mainName"
         android:layout_width="218dp"
         android:layout_height="47dp"
         android:layout_marginStart="83dp"
