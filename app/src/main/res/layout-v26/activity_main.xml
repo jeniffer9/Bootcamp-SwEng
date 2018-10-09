@@ -11,24 +11,26 @@
         android:layout_width="218dp"
         android:layout_height="47dp"
         android:layout_marginStart="83dp"
-        android:layout_marginLeft="83dp"
         android:layout_marginBottom="136dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Welcome"
+        android:hint="mainName"
+        android:labelFor="@+id/mainName"
         app:layout_constraintBottom_toTopOf="@+id/mainGoButton"
         app:layout_constraintStart_toStartOf="parent"
-        android:autofillHints="" />
+        android:autofillHints=""
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/mainGoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="148dp"
-        android:layout_marginLeft="148dp"
         android:layout_marginBottom="48dp"
         android:text="Go"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
 
 </android.support.constraint.ConstraintLayout>
